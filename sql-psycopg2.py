@@ -30,7 +30,7 @@ cursor = connection.cursor()
 
 # cursor.execute('SELECT * FROM "Album" WHERE "ArtistId" = %s', [141])
 
-cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["AC/DC"])
+# cursor.execute('SELECT * FROM "Track" WHERE "Composer" = %s', ["AC/DC"])
 
 # fetch the results (multiple)
 results = cursor.fetchall()
